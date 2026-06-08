@@ -58,8 +58,7 @@ MalVision/
 │   ├── binary_to_image.py        # Binary → grayscale image
 │   ├── dataset_loader.py         # Dataset loading
 │   ├── train.py                  # Model training
-│   ├── evaluate.py               # Model evaluation
-│   └── convert_folder.py         # Batch conversion utility
+│   └── evaluate.py               # Model evaluation
 └── .streamlit/
     └── config.toml               # UI theme
 ```
