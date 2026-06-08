@@ -1,0 +1,14 @@
+malware-visualizer/
+├── pipeline/
+│   ├── binary_to_image.py      # converte .exe/.bin → PNG
+│   ├── dataset_loader.py       # carica e normalizza il dataset
+│   └── train.py                # fine-tuning del modello
+├── model/
+│   └── classifier.py           # wrapper del modello per inference
+├── api/
+│   └── server.py               # FastAPI (ottima idea aggiungerla)
+├── ui/
+│   └── ...                     # dashboard
+└── data/
+    ├── malware/
+    └── benign/
